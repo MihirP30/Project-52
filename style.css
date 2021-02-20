@@ -1,0 +1,67 @@
+body{
+    background-image: url(https://s3.amazonaws.com/noupe/2009/10/pattern-34.jpg);
+    background-size: 100% 100%;
+    margin:0px;
+    text-decoration: none
+}
+.header{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    align-items:center;
+    background-color:#000000;
+    color:#FFFFFF;
+    padding:15px;
+}
+.grid{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    border:solid;
+    background-color:#DCDCDC;
+}
+.item{
+    background-color:#FFF8DC;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border:solid;
+    border-radius:30px;
+    width:300px;
+    flex-wrap:wrap;
+    padding:30px;
+    padding-bottom: 5px;
+}
+.heading{
+    display:flex;
+    justify-content:center;
+    color:#FFFFFF;
+    flex-wrap:wrap;
+}
+.historyanddescription{
+    display:flex;
+    justify-content:center;
+    color:#FFFFFF;
+}
+a:link {
+    color:#FFFFFF;
+}
+a:visited {
+    color:#FFFFFF;
+}
+.item:hover {
+    transform:scale(1.2);
+}
+.item img{
+    position:relative;
+}
+.item p {
+    position:absolute;
+    top: 75%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    opacity:0;
+}
+.item:hover p {
+    opacity:1;
+}
